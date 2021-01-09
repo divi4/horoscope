@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Horoscope</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="main">
+			<h1>Find your future</h1>
+			<div class="date-section">
+				<p>Input your day of birth to find your zodiac:</p>
+				<div class="birth-date">
+					<input class="date-input" type="text" placeholder="mm/dd"></input>
+					<button class="date-btn" type="button">Find your zodiac</button>
+				</div>
+				<p class="error"></p>
+			</div>
+			<div class="zodiac-section hidden">
+				<p>Your zodiac sign is:</p>
+				<p class="zodiac"></p>
+				<button class="gen-horoscope" type="button">Find your daily horoscope</button>
+			</div>
+			<div class="horo-section hidden">
+				<img class="image" src="" alt="Personification of Libra zodiac sign" height="280px">
+				<p class="horoscope"></p>
+				<button class="reset" type="button">Return</button>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
